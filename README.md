@@ -4,7 +4,7 @@ This GNOME shell extension provides a searchable popup menu displaying most emoj
 
 ## Features
 
->**currently Unicode 11** ([soon 12](https://github.com/maoschanz/emoji-selector-for-gnome/issues/28))
+>**currently Unicode 11** ([soon 12](https://github.com/AnmiTaliDev/emoji-selector-for-gnome/issues/28))
 
 - keyboard shortcut to open the extension's menu (<kbd>Super</kbd>+<kbd>E</kbd> by defaut)
 - dynamic search (press <kbd>Enter</kbd> to copy the first result to the clipboard)
@@ -75,7 +75,7 @@ The better option is to install it from [here](https://extensions.gnome.org/exte
 further update.
 
 Download and extract the ZIP, then open a terminal in the project's directory,
-and run `./install.sh`. It should copy the "emoji-selector@maestroschan.fr"
+and run `./install.sh`. It should copy the "emoji-selector@anmitali.kz"
 folder to `~/.local/share/gnome-shell/extensions/`, which can be done manually
 if you prefer.
 

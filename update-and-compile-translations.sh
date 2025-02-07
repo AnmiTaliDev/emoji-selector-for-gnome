@@ -5,14 +5,14 @@
 TRANSLATION_ID="emoji-selector"
 
 echo "Generating .pot file..."
-xgettext --files-from=POTFILES.in --from-code=UTF-8 --add-location=file --output=$TRANSLATION_ID@maestroschan.fr/locale/$TRANSLATION_ID.pot
+xgettext --files-from=POTFILES.in --from-code=UTF-8 --add-location=file --output=$TRANSLATION_ID@anmitali.kz/locale/$TRANSLATION_ID.pot
 
 ################################################################################
 
 IFS='
 '
-dir_list=`ls ./$TRANSLATION_ID@maestroschan.fr/locale/`
-prefix="./$TRANSLATION_ID@maestroschan.fr/locale"
+dir_list=`ls ./$TRANSLATION_ID@anmitali.kz/locale/`
+prefix="./$TRANSLATION_ID@anmitali.kz/locale"
 
 for dir in $dir_list; do
 	if [ "$dir" != "$TRANSLATION_ID.pot" ]; then
